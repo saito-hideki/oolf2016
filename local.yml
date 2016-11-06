@@ -1,8 +1,8 @@
 ---
-hosts: localhost
+- hosts: localhost
 
-tasks:
-  - name: hello world
-    debug:
-      msg: "Hello, World!"
+  tasks:
+    - name: hello world
+      debug:
+        msg: "Hello, World!"
 
